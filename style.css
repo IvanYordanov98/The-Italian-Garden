@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
+
+body
+{
+  font-family: Lato;
+  color:#777777;
+  background-image: url("https://www.freevector.com/uploads/vector/preview/24074/DD-Dark-Wood-Texture-22123-Preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h2
+{
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color:#fafafa;
+    
+}
+
+#logo
+{
+  font-size: 280%;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+#error
+{
+  font-size: 150%;
+  text-align: center;
+  line-height: 45px;
+  height: 400px;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+#error a
+{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border: 3px solid;
+  border-radius: 5px;
+  border-color: #000;
+  background-color: #ffb820;
+  padding: 3px;
+}
+
+#menu
+{
+  font-size: 130%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height: 45px;
+  padding-bottom: 1px;
+}
+
+
+#menu li 
+{
+  float: left;
+  background-color: #555555;
+  margin-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  border-color: #111111;
+  border-radius: 3px;
+  width: 20%;
+}
+
+#menu a 
+{
+  text-decoration: none;
+  color: #ffffff;
+  font: bold;
+}
+
+#menu a:hover 
+{
+  border-bottom: 1px solid #777777;
+}
+
+.active
+{
+  border-bottom: 1px solid #777777;
+}
+
+#diner-image
+{
+  height:600px;
+  width: 100%;
+  background: url("https://static.designmynight.com/uploads/2018/04/alto-by-San-Carlo-@-Selfridges-INTERIOR-optimised.jpg") no-repeat center; 
+  display: block;
+}
+
+#cover-text, #cover-text h2 
+{
+  color: #ffffff;
+}
+
+#cover-text 
+{
+  font-size: 130%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+  background-color: rgba(241, 109, 107, .7);
+  bottom:30px;
+  right: 120px;
+  position: absolute;
+}
+
+/*------------------------------------------------------------------Positioning*/
+
+#welcome-position
+{
+  height: 600px;
+  margin-top: 75px;
+}
+
+#error-position
+{
+  height: 400px;
+  margin-top: 75px;
+}
+
+#menu-position
+{
+  height: 2000px;
+  margin-top: 75px;
+  display: block;
+}
+
+#mention-position
+{
+  height: 750px;
+  margin-top: 75px;
+  display: block;
+}
+
+#center
+{
+  width: 33%;
+  margin:0 auto;
+  text-align: center;
+  color: #fafafa;  
+}
+
+#center p
+{
+  font-size: 20px;
+  width: 33%;
+  display: inline-block;
+}
+
+hr
+{
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin: 5px 0;
+    
+}
+
+#welcome
+{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 280%;
+  border-color: #ffb820;
+  border-width: 1px;
+}
+
+#circle-container
+{
+  width: 300px;
+  height: 300px;
+  padding:30px;
+  border-style: solid;
+  border-color:#cccccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+#times
+{
+  background-image: url("https://i.pinimg.com/originals/07/06/e2/0706e2d368eb7344bfca507cbf3af7db.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+#times div
+{
+  color: #fafafa;
+  background-color: rgba(0,0,0, .6);
+  width: 33%;
+  height: 100px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+#times h2
+{
+  color:#fafafa;
+}
+
+footer
+{
+  height: 150px;
+  background-color: #3a3535;
+}
+
+.social-networks
+{
+  text-align: center;
+}
+
+.social-networks li 
+{
+  display:inline;
+}
+
+.social-networks i 
+{
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #ffb820;
+}
+
+/*------------------------------------------------------------------Images*/
+
+.main1
+{
+  background: url("https://static.toiimg.com/thumb/60018142.cms?imgsize=657409&width=300&height=300") no-repeat left;
+  width: 75%;
+  height: 300px;
+  margin-left: 20%;
+  display: block;
+}
+
+.main2
+{
+  background: url("https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/786_5_1350297947.jpg?tr=w-300,h-300") no-repeat center;
+  width: 35%;
+  height: 300px;
+  margin-left: 50%;
+  display: inline-block;
+}
+
+.main3
+{
+  background: url("https://d1nz104zbf64va.cloudfront.net/dt/a/o/biggest-food-debates-is-there-a-right-way-to-eat-pizza.gif") no-repeat left;
+  width: 75%;
+  height: 300px;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  display: block;
+}
+
+.main4
+{
+  background: url("https://gotvach.bg/files/lib/500x350/creamy-tortelini1.jpg") no-repeat center;
+  width: 35%;
+  height: 300px;
+  margin-left: 50%;
+  display: inline-block;
+}
+
+.deserts1
+{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyGtdcXaxOqOCc5FHkbhopxj72zel0OViHKw&usqp=CAU") no-repeat left;
+  width: 75%;
+  height: 300px;
+  margin-top: 5%;
+  margin-left: 20%;
+  display: block;
+}
+
+.deserts2
+{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSuq5XqDQB3uO3WTERRQmVVfc8stSdaVaHjxA&usqp=CAU") no-repeat center;
+  width: 35%;
+  height: 300px;
+  margin-left: 50%;
+  display: inline-block;
+}
+
+.deserts3
+{
+  background: url("https://static01.nyt.com/images/2016/05/24/dining/24COOKING-BANANA-ICE-CREAM1/24COOKING-BANANA-ICE-CREAM1-articleLarge-v2.jpg") no-repeat left;
+  width: 75%;
+  height: 300px;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  display: block;
+}
+
+.deserts4
+{
+  background: url("https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18195816/051095070-01-creme-caramel-main.jpg") no-repeat center;
+  width: 45%;
+  height: 300px;
+  margin-left: 50%;
+  display: inline-block;
+}
+
+.mention1
+{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH-MO_sGpq9GvDscWPMBqbVu5OtAoW842PgYC993Gm9wpXKkt2&s") no-repeat left;
+  width: 75%;
+  height: 200px;
+  margin-left: 20%;
+  display: block;
+}
+
+.mention2
+{
+  background: url("https://image.shutterstock.com/image-photo/sexy-redhead-bartender-260nw-261056336.jpg") no-repeat right;
+  width: 25%;
+  height: 200px;
+  margin-left: 50%;
+  display: inline-block;
+}
+
+.mention3
+{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrY0sAckt959bV9E83TcfAwC41vhGyeZzBfcpF92yKeW9VJ0&s") no-repeat left;
+  width: 75%;
+  height: 200px;
+  margin-top: 5%;
+  margin-left: 20%;
+  display: block;
+}
+
+.mention4
+{
+  background: url("https://images-na.ssl-images-amazon.com/images/I/6132HiPT+AL._US230_.jpg") no-repeat center;
+  width: 25%;
+  height: 200px;
+  margin-left: 50%;
+  display: inline-block;
+}
+
+/*------------------------------------------------------------------Text*/
+
+.mention-text-column p
+{
+  color: #fafafa;
+  width: 20%;
+  display: inline-block;
+  font-size: 130%;
+  font-weight: 900;
+}
+
+.mention-text-left1
+{
+  margin-top: 0;
+  margin-right: 29.70%;
+}
+
+.mention-text-left2
+{
+  margin-right: 29.70%;
+  margin-top: 0;
+}
+
+.mention-text-right1
+{
+  margin-right: 25%;
+  margin-top: 0;
+}
+
+.mention-text-right2
+{
+  margin-right: 25%;
+  margin-top: 0;
+}
+#photo 
+{
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0px;
+}
+
+#photo img
+{
+  width: 100%;
+}
+
+/*------------------------------------------------------------------Form*/
+
+.form-section {
+  clear: both;
+  background-size: cover;
+  background-position: center;
+  background-color: #ffb820;
+  padding: 20px;
+  border-color: #777777;
+  border-width: 3px;
+  border-style: solid;
+  margin: 15% 35% 20% 35%;
+  color: #111;
+  font-weight: bold; 
+}
+
+.input-size-age
+  {
+    width: 35px;
+  }
+
+.input-date
+  {
+    width: 140px;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #000;
+    font-weight: bold;
+    padding: 2px;
+  }
+/*------------------------------------------------------------------Screen-Size*/
+
+@media screen and (max-width: 1393px) 
+{ 
+  #welcome 
+  {
+    padding: 30px 0;
+    margin-top: 0;
+  }
+    
+  #center 
+  {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+    
+  #times div
+  {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
+    padding: 0;
+  }
+
+  hr 
+  {
+    display: none;
+  }   
+}
+
+@media screen and (max-width: 943px) 
+{   
+  #menu 
+  {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #cover-image 
+  {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background: url(../img/form-bg.png) no-repeat;
+  }
+
+  #cover-text 
+  {
+    left: 0px;
+  }
+    
+  #club-ethos 
+  {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto; 
+  }
+    
+  #photo
+  {
+    column-count:3;
+  }
+       
+  #form-container 
+  {
+    left:0;
+  }
+   
+}
+  @media screen and (max-width: 800px) 
+  {
+    #photo 
+    {
+      column-count:2;
+    }
+  }
+
+
+
+
+
+
+
